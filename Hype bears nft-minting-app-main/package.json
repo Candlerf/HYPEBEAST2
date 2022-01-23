@@ -19,7 +19,7 @@
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+      "build": "cross-env NODE_ENV=production webpack --config webpack.config.js"
   },
   "browserslist": {
     "production": [
